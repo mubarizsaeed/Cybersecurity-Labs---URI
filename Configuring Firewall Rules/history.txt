@@ -1,0 +1,190 @@
+vyos@vyos:~$ history
+    1  2022-11-05T00:49:36+0000 install image
+    2  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+    3  2022-11-05T00:50:58+0000 configure
+    4  2022-11-05T00:49:36+0000 install image
+    5  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+    6  2022-11-05T00:50:58+0000 configure
+    7  2022-11-05T00:51:03+0000 set interface ethernet eth0 address dhcp
+    8  2022-11-05T00:51:09+0000 set interface ethernet eth1 address 192.168.2.1
+    9  2022-11-05T00:52:17+0000 set interface ethernet eth1 address 192.168.2.1/24
+   10  2022-11-05T00:52:33+0000 set interface ethernet eth2 address 192.168.3.1/24
+   11  2022-11-05T00:52:40+0000 set interfaces ethernet eth0 description 'OUTSIDE'
+   12  2022-11-05T00:52:47+0000 set interfaces ethernet eth1 description 'DMZ'
+   13  2022-11-05T00:53:18+0000 set interfaces ethernet eth2 desciprtion 'LAN'
+   14  2022-11-05T00:53:34+0000 set interfaces ethernet eth2 interfacesLANdescription
+   15  2022-11-05T00:53:49+0000 set interfaces ethernet eth2 description 'LAN'
+   16  2022-11-05T00:54:07+0000 commit
+   17  2022-11-05T00:54:08+0000 save
+   18  2022-11-05T00:54:10+0000 exit
+   19  2022-11-05T00:54:14+0000 show interfaces
+   20  2022-11-04T21:59:42+0000 configure
+   21  2022-11-05T00:49:36+0000 install image
+   22  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   23  2022-11-05T00:50:58+0000 configure
+   24  2022-11-05T00:49:36+0000 install image
+   25  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   26  2022-11-05T00:50:58+0000 configure
+   27  2022-11-05T00:51:03+0000 set interface ethernet eth0 address dhcp
+   28  2022-11-05T00:51:09+0000 set interface ethernet eth1 address 192.168.2.1
+   29  2022-11-05T00:52:17+0000 set interface ethernet eth1 address 192.168.2.1/24
+   30  2022-11-05T00:52:33+0000 set interface ethernet eth2 address 192.168.3.1/24
+   31  2022-11-05T00:52:40+0000 set interfaces ethernet eth0 description 'OUTSIDE'
+   32  2022-11-05T00:52:47+0000 set interfaces ethernet eth1 description 'DMZ'
+   33  2022-11-05T00:53:18+0000 set interfaces ethernet eth2 desciprtion 'LAN'
+   34  2022-11-05T00:53:34+0000 set interfaces ethernet eth2 interfacesLANdescription
+   35  2022-11-05T00:53:49+0000 set interfaces ethernet eth2 description 'LAN'
+   36  2022-11-05T00:54:07+0000 commit
+   37  2022-11-05T00:54:08+0000 save
+   38  2022-11-05T00:54:10+0000 exit
+   39  2022-11-05T00:54:14+0000 show interfaces
+   40  2022-11-04T21:59:42+0000 configure
+   41  2022-11-04T22:00:00+0000 set nat source rule 100 outbound-interface eth0
+   42  2022-11-04T22:00:06+0000 set nat source rule 100 source address '192.168.0.0/16'
+   43  2022-11-04T22:00:12+0000 set nat source rule 100 translation address masquerade
+   44  2022-11-04T22:00:46+0000 set service dns forwarding cache-size 0
+   45  2022-11-04T22:00:51+0000 set service dns forwarding listen-on eth1
+   46  2022-11-04T22:00:56+0000 set service dns forwarding listen-on eth2
+   47  2022-11-04T22:00:59+0000 set service dns forwarding name-server 8.8.8.8
+   48  2022-11-04T22:01:12+0000 commit
+   49  2022-11-04T22:01:16+0000 save
+   50  2022-11-04T22:15:52+0000 set firewall group network-group NET-DMZ network '192.168.2.0/24'
+   51  2022-11-04T22:15:57+0000 set firewall group network-group NET-LAN network '192.168.3.0/24'
+   52  2022-11-04T22:16:00+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+   53  2022-11-04T22:16:19+0000 exit
+   54  2022-11-04T22:16:22+0000 exit discard
+   55  2022-11-04T22:16:27+0000 configure
+   56  2022-11-05T00:49:36+0000 install image
+   57  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   58  2022-11-05T00:50:58+0000 configure
+   59  2022-11-05T00:49:36+0000 install image
+   60  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   61  2022-11-05T00:50:58+0000 configure
+   62  2022-11-05T00:51:03+0000 set interface ethernet eth0 address dhcp
+   63  2022-11-05T00:51:09+0000 set interface ethernet eth1 address 192.168.2.1
+   64  2022-11-05T00:52:17+0000 set interface ethernet eth1 address 192.168.2.1/24
+   65  2022-11-05T00:52:33+0000 set interface ethernet eth2 address 192.168.3.1/24
+   66  2022-11-05T00:52:40+0000 set interfaces ethernet eth0 description 'OUTSIDE'
+   67  2022-11-05T00:52:47+0000 set interfaces ethernet eth1 description 'DMZ'
+   68  2022-11-05T00:53:18+0000 set interfaces ethernet eth2 desciprtion 'LAN'
+   69  2022-11-05T00:53:34+0000 set interfaces ethernet eth2 interfacesLANdescription
+   70  2022-11-05T00:53:49+0000 set interfaces ethernet eth2 description 'LAN'
+   71  2022-11-05T00:54:07+0000 commit
+   72  2022-11-05T00:54:08+0000 save
+   73  2022-11-05T00:54:10+0000 exit
+   74  2022-11-05T00:54:14+0000 show interfaces
+   75  2022-11-04T21:59:42+0000 configure
+   76  2022-11-05T00:49:36+0000 install image
+   77  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   78  2022-11-05T00:50:58+0000 configure
+   79  2022-11-05T00:49:36+0000 install image
+   80  2022-11-05T00:50:51+0000 set interface ethernet eth0 address dhcp
+   81  2022-11-05T00:50:58+0000 configure
+   82  2022-11-05T00:51:03+0000 set interface ethernet eth0 address dhcp
+   83  2022-11-05T00:51:09+0000 set interface ethernet eth1 address 192.168.2.1
+   84  2022-11-05T00:52:17+0000 set interface ethernet eth1 address 192.168.2.1/24
+   85  2022-11-05T00:52:33+0000 set interface ethernet eth2 address 192.168.3.1/24
+   86  2022-11-05T00:52:40+0000 set interfaces ethernet eth0 description 'OUTSIDE'
+   87  2022-11-05T00:52:47+0000 set interfaces ethernet eth1 description 'DMZ'
+   88  2022-11-05T00:53:18+0000 set interfaces ethernet eth2 desciprtion 'LAN'
+   89  2022-11-05T00:53:34+0000 set interfaces ethernet eth2 interfacesLANdescription
+   90  2022-11-05T00:53:49+0000 set interfaces ethernet eth2 description 'LAN'
+   91  2022-11-05T00:54:07+0000 commit
+   92  2022-11-05T00:54:08+0000 save
+   93  2022-11-05T00:54:10+0000 exit
+   94  2022-11-05T00:54:14+0000 show interfaces
+   95  2022-11-04T21:59:42+0000 configure
+   96  2022-11-04T22:00:00+0000 set nat source rule 100 outbound-interface eth0
+   97  2022-11-04T22:00:06+0000 set nat source rule 100 source address '192.168.0.0/16'
+   98  2022-11-04T22:00:12+0000 set nat source rule 100 translation address masquerade
+   99  2022-11-04T22:00:46+0000 set service dns forwarding cache-size 0
+  100  2022-11-04T22:00:51+0000 set service dns forwarding listen-on eth1
+  101  2022-11-04T22:00:56+0000 set service dns forwarding listen-on eth2
+  102  2022-11-04T22:00:59+0000 set service dns forwarding name-server 8.8.8.8
+  103  2022-11-04T22:01:12+0000 commit
+  104  2022-11-04T22:01:16+0000 save
+  105  2022-11-04T22:15:52+0000 set firewall group network-group NET-DMZ network '192.168.2.0/24'
+  106  2022-11-04T22:15:57+0000 set firewall group network-group NET-LAN network '192.168.3.0/24'
+  107  2022-11-04T22:16:00+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+  108  2022-11-04T22:16:19+0000 exit
+  109  2022-11-04T22:16:22+0000 exit discard
+  110  2022-11-04T22:16:27+0000 configure
+  111  2022-11-04T22:16:31+0000 show interfaces
+  112  2022-11-04T22:16:40+0000 set firewall group network-group NET-DMZ network '192.168.2.0/24'
+  113  2022-11-04T22:16:45+0000 set firewall group network-group NET-LAN network '192.168.3.0/24'
+  114  2022-11-04T22:16:52+0000 et firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+  115  2022-11-04T22:17:09+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2/
+  116  2022-11-04T22:17:52+0000 et firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+  117  2022-11-04T22:18:18+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2'
+  118  2022-11-04T22:18:45+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+  119  2022-11-04T22:18:57+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.3/32'
+  120  2022-11-04T22:19:06+0000 set firewall group network-group NET-WAN 192.168.122.firewall42network
+  121  2022-11-04T22:19:52+0000 set firewall group network-group NET-WAN network '192.168.122.42'
+  122  2022-11-04T22:20:01+0000 set firewall group network-group NET-WAN network '192.168.122.0'
+  123  2022-11-04T22:20:10+0000 set firewall group network-group NET-WAN network 192.168.122.0
+  124  2022-11-04T22:20:13+0000 set firewall group network-group NET-WAN network 192.168.122.24
+  125  2022-11-04T22:20:20+0000 show interfacce
+  126  2022-11-04T22:20:23+0000 show interface
+  127  2022-11-04T22:20:35+0000 set firewall group network-group NET-WAN network dhcp
+  128  2022-11-04T22:20:42+0000 exit
+  129  2022-11-04T22:20:45+0000 exit discard
+  130  2022-11-04T22:20:49+0000 show interface
+  131  2022-11-04T22:21:05+0000 configure
+  132  2022-11-04T22:21:10+0000 set firewall group network-group NET-DMZ network '192.168.2.0/24'
+  133  2022-11-04T22:21:14+0000 set firewall group network-group NET-LAN network '192.168.3.0/24'
+  134  2022-11-04T22:21:18+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.2/32'
+  135  2022-11-04T22:21:22+0000 set firewall group network-group NET-MANAGEMENT network '192.168.3.3/32'
+  136  2022-11-04T22:21:26+0000 set firewall group network-group NET-WAN 192.168.122.42/firewall24 network
+  137  2022-11-04T22:22:04+0000 set firewall group network-group NET-WAN network '192.168.122.42/24'
+  138  2022-11-04T22:22:18+0000 set firewall group network-group NET-WAN network '192.168.122.0/24'
+  139  2022-11-04T22:22:45+0000 set firewall name WAN-LOCAL default-action 'drop'
+  140  2022-11-04T22:22:52+0000 set firewall name WAN-LOCAL rule 1020 action 'drop'
+  141  2022-11-04T22:22:59+0000 vyos@vyos#
+  142  2022-11-04T22:23:05+0000 set firewall name WAN-LOCAL rule 1020 icmp type-name 'echo-request'
+  143  2022-11-04T22:23:09+0000 set firewall name WAN-LOCAL rule 1020 protocol 'icmp'
+  144  2022-11-04T22:23:14+0000 set firewall name WAN-LOCAL rule 1020 state new 'enable'
+  145  2022-11-04T22:23:19+0000 set firewall name LAN-LOCAL default-action 'drop'
+  146  2022-11-04T22:23:22+0000 set firewall name LAN-LOCAL rule 1020 action 'drop'
+  147  2022-11-04T22:23:26+0000 set firewall name LAN-LOCAL rule 1020 icmp type-name 'echo-request'
+  148  2022-11-04T22:23:29+0000 set firewall name LAN-LOCAL rule 1020 protocol 'icmp'
+  149  2022-11-04T22:23:33+0000 set firewall name LAN-LOCAL rule 1020 state new 'enable'
+  150  2022-11-04T22:23:39+0000 set firewall name DMZ-LOCAL default-action 'drop'
+  151  2022-11-04T22:23:45+0000 set firewall name DMZ-LOCAL rule 1020 action 'drop'
+  152  2022-11-04T22:23:49+0000 set firewall name DMZ-LOCAL rule 1020 icmp type-name 'echo-request'
+  153  2022-11-04T22:23:52+0000 set firewall name DMZ-LOCAL rule 1020 protocol 'icmp'
+  154  2022-11-04T22:23:55+0000 set firewall name DMZ-LOCAL rule 1020 state new 'enable'
+  155  2022-11-04T22:23:58+0000  set interfaces ethernet eth0 firewall local name 'WAN-LOCAL'
+  156  2022-11-04T22:24:02+0000  set interfaces ethernet eth1 firewall local name 'DMZ-LOCAL'
+  157  2022-11-04T22:24:04+0000 set interfaces ethernet eth2 firewall local name 'LAN-LOCAL'
+  158  2022-11-04T22:24:09+0000 set firewall name LAN-IN default-action 'drop'
+  159  2022-11-04T22:24:12+0000 set firewall name LAN-IN rule 1020 action 'accept'
+  160  2022-11-04T22:24:18+0000 set firewall name LAN-IN rule 1020 state established 'enable'
+  161  2022-11-04T22:24:22+0000 set firewall name LAN-IN rule 1020 state related 'enable'
+  162  2022-11-04T22:24:28+0000 set firewall name DMZ-IN default-action 'drop'
+  163  2022-11-04T22:24:31+0000 set firewall name DMZ-IN rule 1020 action 'accept'
+  164  2022-11-04T22:24:33+0000 set firewall name DMZ-IN rule 1020 state established 'enable'
+  165  2022-11-04T22:24:36+0000 set firewall name DMZ-IN rule 1020 state related 'enable'
+  166  2022-11-04T22:24:40+0000 set firewall name DMZ-IN rule 1020 action 'drop'
+  167  2022-11-04T22:24:44+0000 set firewall name DMZ-IN rule 1020 state invalid 'enable'
+  168  2022-11-04T22:24:50+0000 set interfaces ethernet eth1 firewall in name 'DMZ-IN'
+  169  2022-11-04T22:24:53+0000 set interfaces ethernet eth2 firewall in name 'LAN-IN'
+  170  2022-11-04T22:24:59+0000 set firewall name LAN-OUT rule 1020 action 'drop'
+  171  2022-11-04T22:25:02+0000 set firewall name LAN-OUT rule 1020 icmp type-name 'echo-request'
+  172  2022-11-04T22:25:04+0000 set firewall name LAN-OUT rule 1020 protocol 'icmp'
+  173  2022-11-04T22:25:06+0000 set firewall name LAN-OUT rule 1020 state new 'enable'
+  174  2022-11-04T22:25:10+0000 set firewall name DMZ-OUT rule 1020 action 'drop'
+  175  2022-11-04T22:25:14+0000 set firewall name DMZ-OUT rule 1020 icmp type-name 'echo-request'
+  176  2022-11-04T22:25:18+0000 set firewall name DMZ-OUT rule 1020 protocol 'icmp'
+  177  2022-11-04T22:25:22+0000 set firewall name DMZ-OUT rule 1020 state new 'enable'
+  178  2022-11-04T22:25:26+0000 set interfaces ethernet eth1 firewall out name 'DMZ-OUT'
+  179  2022-11-04T22:25:30+0000 set interfaces ethernet eth2 firewall out name 'LAN-OUT
+  180  2022-11-04T22:31:46+0000 commit
+  181  2022-11-04T22:31:46+0000 save
+  182  2022-11-04T22:25:56+0000 commit
+  183  2022-11-04T22:26:01+0000 save
+  184  2022-11-04T22:27:53+0000 exit
+  185  2022-11-04T22:27:53+0000 exit
+  186  2022-11-04T22:27:57+0000 ping 8.8.8.8
+  187  2022-11-04T22:28:52+0000 history
+  188  2022-11-04T22:31:28+0000 ctrl+s
+  189  2022-11-04T22:31:50+0000 history
