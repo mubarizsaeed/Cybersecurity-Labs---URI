@@ -95,11 +95,4 @@ Explore wireless security by cracking WiFi passwords using aircrack-ng.
 3. Cracking WiFi Passwords
 4. Mitigation Strategies
 
-## Additional Resources:
-- Consult provided documentation for detailed instructions.
-- Explore external resources and tutorials for further learning.
 
-## Conclusion:
-These labs are designed to provide you with practical skills and insights into various cybersecurity domains. Completion of these labs will empower you with valuable experience crucial for a successful career in cybersecurity.
-
-Happy learning, and stay secure!
