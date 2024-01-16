@@ -1,7 +1,6 @@
 # Cybersecurity Labs - URI
 
-Welcome to the Cybersecurity Labs repository at URI! These hands-on labs are designed to provide practical experience and enhance your skills in various aspects of cybersecurity.
-
+Welcome to the Cybersecurity Labs repository at URI! 
 ## Lab List:
 
 1. [Configuring Firewall Rules](#configuring-firewall-rules)
